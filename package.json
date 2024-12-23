@@ -2,7 +2,8 @@
   "scripts": {
     "start": "node dist/main.js",
     "start:dev": "ts-node -r tsconfig-paths/register src/main.ts",
-    "build": "tsc"
+    "build": "tsc",
+     "migrate:deploy": "prisma migrate deploy"
   },
   "devDependencies": {
     "prisma": "^6.1.0",
